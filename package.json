@@ -1,0 +1,29 @@
+{
+  "name": "text to svg path en masse",
+  "version": "1.0.0",
+  "description": "turn a text library into svg paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nascherman/svg-font-library-maker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nascherman/svg-font-library-maker/issues"
+  },
+  "homepage": "https://github.com/nascherman/svg-font-library-maker#readme",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "directory-search": "0.0.32",
+    "mock-browser": "^0.92.12"
+  },
+   "bin": {
+    "svg-text": "./index.js"
+  }
+}
