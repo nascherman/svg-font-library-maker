@@ -43,7 +43,7 @@ if(process.argv[5]) {
 
 directorySearch(process.argv[2], type, function(err, results) {
 	results.forEach( (result) => {
-		var dirName = assetsPath + result.split('.');
+		var dirName = assetsPath + result.split('//')[0] + '/' + result.split('//')[1].split('.')[0];
 		try {
 			fs.mkdirSync(dirName );
 		} catch (err) {
